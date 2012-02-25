@@ -1,0 +1,118 @@
+body {
+	font-family: Verdana, Helvetica, sans-serif;	
+	background-image: url('../images/body_bg.png');
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	background-color: #bed8e8;
+	height: 800px;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+#header {
+	text-align: center;
+}
+
+#header h1 {
+	text-shadow: 4px 4px 3px #b3b3b3;
+	width: 900px;
+	height: 150px;
+	margin: auto;
+	border: 1px #FF0000 dotted;
+}
+
+#main {
+	width: 960px;
+	margin: auto;
+	background-image: url('../images/main_bg.png');
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	overflow: auto;
+}
+
+/*---------- Left side --------------------------------*/
+#main_left {
+	float: left;
+	width: 270px;
+	background: transparent;
+}
+
+#main_left a {
+	color: #ffffff;
+	font-weight: bold;	
+}
+
+#button_o_nama {
+	display: block;
+	background: url('../images/button_o_nama.png');
+	width: 178px;
+	height: 72px;
+	padding-top: 15px;
+	padding-left: 80px;
+	font-size: 1.5em;
+}
+
+#button_ponuda {
+	display: block;
+	background: url('../images/button_ponuda.png');
+	width: 178px;
+	height: 72px;
+	padding-top: 15px;
+	padding-left: 80px;
+	font-size: 1.5em;
+}
+
+#button_galerija {
+	display: block;
+	background: url('../images/button_galerija.png');
+	width: 178px;
+	height: 72px;
+	padding-top: 15px;
+	padding-left: 80px;
+	font-size: 1.5em;
+}
+
+#button_kontakt {
+	display: block;
+	background: url('../images/button_kontakt.png');
+	width: 178px;
+	height: 72px;
+	padding-top: 15px;
+	padding-left: 80px;
+	font-size: 1.5em;
+}
+
+
+/*---------- Right side, content ----------------------*/
+#main_right {
+	float: left;
+	width: 600px;
+	min-height: 330px;	
+	background: url('../images/main_right_bg.png');
+	margin-left: 50px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	padding: 10px 10px 10px 10px;
+}
+
+#main_right a {
+	text-decoration: none;
+	color: #000000;
+}
+
+#footer {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	text-align: center;
+	font-size: 10px;
+}
+
+#footer a {
+	text-decoration: none;
+	color: #000000;
+}
